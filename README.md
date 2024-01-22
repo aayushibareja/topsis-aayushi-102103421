@@ -12,7 +12,7 @@ pip install topsis-aayushi-102103421
 import pandas as pd
 from topsis_package import topsis
 
-# Sample data
+## Sample data
 data = pd.DataFrame({
     'P1': [3, 4, 5, 2],
     'P2': [5, 2, 3, 4],
@@ -21,14 +21,14 @@ data = pd.DataFrame({
     'P5': [1, 2, 3, 4],
 })
 
-# Sample weights and impacts
+## Sample weights and impacts
 weights = [1, 1, 1, 1, 1]
 impacts = [1, -1, 1, 1, -1]
 
-# Perform TOPSIS analysis
+## Perform TOPSIS analysis
 topsis_scores = topsis(data, weights, impacts)
 
-# Display TOPSIS scores
+## Display TOPSIS scores
 print("TOPSIS Scores:")
 print(topsis_scores)
 
