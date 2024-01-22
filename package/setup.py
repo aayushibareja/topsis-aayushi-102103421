@@ -3,7 +3,7 @@ setuptools.setup(
  name='topsis-aayushi-102103421',
  version='0.1',
  author="Aayushi Bareja",
- author_email="abareja_be21@thapar.edu",
+ author_email="aayushi.bareja@gmail.com",
  description="Topsis Implementation",
  packages=setuptools.find_packages(),
  classifiers=[
